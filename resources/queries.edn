@@ -1,0 +1,45 @@
+[{:tier                           "1 (cool independent chalets)"
+  :chalet                         true
+  :flats/skip-duplex-requirement? false
+  :subTypology                    "independantHouse"
+  :minPrice                       750.0
+  :maxPrice                       1350.0
+  :distance                       (* 1000.0 5.5)}
+
+ {:tier                           "2 (cool duplex flats)"
+  :flat                           true
+  :flats/skip-duplex-requirement? false
+  :maxSize                        200
+  :minPrice                       700.0
+  :maxPrice                       1250.0
+  :distance                       (* 1000.0 3.5)}
+
+ {:tier                           "3 (less cool, non-necessarily independent chalets)"
+  :chalet                         true
+  :flats/skip-duplex-requirement? false
+  :minPrice                       750.0
+  :maxPrice                       1500.0
+  :distance                       (* 1000.0 6.0)
+  :airConditioning                false
+  :builtinWardrobes               false}
+
+ {:tier                           "4 (less cool, duplex flats)"
+  :flat                           true
+  :flats/skip-duplex-requirement? false
+  :maxSize                        200
+  :minPrice                       700.0
+  :maxPrice                       1400.0
+  :distance                       (* 1000.0 5.5)
+  :airConditioning                false
+  :builtinWardrobes               false}
+
+ {:tier                           "5 (less cool, non-duplex flats)"
+  :flat                           true
+  :flats/skip-duplex-requirement? true
+  :maxSize                        200
+  :minPrice                       950
+  :maxPrice                       1250
+  :bedrooms                       "2" ;; since this is a query for non-duplex flats, focus on quality: fewer rooms, pricier.
+  :distance                       (* 1000.0 5.5)
+  :airConditioning                false
+  :builtinWardrobes               false}]

@@ -1,24 +1,22 @@
 # idealistic
 
-<!-- (In short: What does the library do?) -->
-
-## Synopsis
-
-<!-- (Show off its main functions so the reader can get a basic idea) -->
+A real estate finder. Uses the [Idealista](https://www.idealista.com) API, which is available for the ES, PT, IT markets.
 
 ## Installation
 
-```clojure
-[net.vemv/idealistic "unreleased"]
+Simply clone the repo. No releases are foreseen, since this is more of a script than a library.
+
+## Usage
+
+```bash
+export IDEALISTIC_API_KEY=...
+export IDEALISTIC_API_SECRET=...
+lein run -m net.vemv.idealistic.api > results_$(date +%Y%m%d%H%M)
 ```
 
-## ns organisation
+Regarding the search criteria, some things are more hardcoded than others.
 
-<!-- (how is the project organised? Which are its public parts?) -->
-
-## Documentation
-
-Please browse the public namespaces, which are documented, speced and tested.
+> As per the current default data (16 cities, 5 queries per cities), 80 API calls are used per session, plus one possibly cached one for the auth. 
 
 ## Development
 
