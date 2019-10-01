@@ -4,7 +4,7 @@
   :dependencies [[cheshire "5.8.1"]
                  [clj-http "3.10.0"]
                  [com.nedap.staffing-solutions/speced.def "1.1.0-alpha3"]
-                 [com.nedap.staffing-solutions/utils.spec.predicates "1.0.0"]
+                 [com.nedap.staffing-solutions/utils.spec.predicates "1.1.0-alpha1"]
                  [org.clojure/clojure "1.10.1"]
                  [throttler "1.0.0"]]
 
