@@ -3,8 +3,8 @@
   ;; Please keep the dependencies sorted a-z.
   :dependencies [[cheshire "5.8.1"]
                  [clj-http "3.10.0"]
-                 [com.nedap.staffing-solutions/speced.def "1.1.0-alpha3"]
-                 [com.nedap.staffing-solutions/utils.spec.predicates "1.1.0-alpha1"]
+                 [com.nedap.staffing-solutions/speced.def "2.0.0"]
+                 [com.nedap.staffing-solutions/utils.spec.predicates "1.1.0"]
                  [org.clojure/clojure "1.10.1"]
                  [throttler "1.0.0"]]
 
@@ -39,7 +39,7 @@
                                   [com.stuartsierra/component "0.4.0"]
                                   [com.taoensso/timbre "4.10.0"]
                                   [criterium "0.4.4"]
-                                  [formatting-stack "1.0.0-alpha3"
+                                  [formatting-stack "4.2.3"
                                    :exclusions [rewrite-clj]]
                                   [lambdaisland/deep-diff "0.0-29"]
                                   [medley "1.1.0"]
